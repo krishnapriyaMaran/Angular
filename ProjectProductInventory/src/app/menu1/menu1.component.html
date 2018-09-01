@@ -1,0 +1,113 @@
+<h1></h1>
+<h1></h1>
+
+<div class="container">
+
+<form class="modal-content animate" #userForm="ngForm" (ngSubmit)="onSubmit(userForm.value)" >
+<div class="cen"><img height="200px" width="200px" src="data:image/jpeg;base64,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">
+<h1>Product Inventory</h1></div>
+<table class='table borderless'>
+<tbody>
+<tr>
+<td>Product Name:</td>
+<td>   <div class="form-group" class="control-label col-sm-8"  >
+        <input type="text" class="form-control" id="name"   required    pattern = "^[a-zA-Z ]*$"  name="name" ngModel   #name="ngModel" >
+         <div *ngIf="name.errors  && ( name.touched)" class="alert alert-danger">
+              <div [hidden]="!name.errors.required"> please enter name </div>
+              <div [hidden]="!name.errors.pattern"> Please enter valid name  </div>
+         </div>   
+    </div>
+</td>
+</tr>
+
+<tr>
+<td>Product Barcode:</td>
+<td><div class="form-group"  class="control-label col-sm-8">
+          <input type="text" class="form-control" name="barcode" id="barcode" ngModel required  pattern="^[0-9]*$" minlength="12" maxlength="12" (blur)= "result=onBlurMethod(barcode.value)" #barcode="ngModel"  >
+             {{result}}   
+          <div  *ngIf="barcode.errors && (barcode.touched)" class="alert alert-danger">  
+              
+            <div [hidden]="!barcode.errors.required">please enter bar code</div>
+            <div [hidden]="!barcode.errors.pattern">please enter only numbers</div>
+            <div [hidden]="!barcode.errors.minlength"   >Enter 12 number barcode </div>
+            <div [hidden]="!barcode.errors.maxlength">Enter 12 number barcode </div>
+               
+            
+            
+          </div>
+    </div>
+    </td>
+</tr>
+
+
+
+<tr>
+<td>Product Price:</td>
+<td><div class="form-group"  class="control-label col-sm-8">
+         <input type="text" class="form-control"  id="price"   required  pattern = "^[0-9.]*$" name="price" ngModel  #price="ngModel">
+            <div *ngIf="price.errors && ( price.touched )" class="alert alert-danger">
+                  <div [hidden]="!price.errors.required">please enter price</div>
+                  <div [hidden]="!price.errors.pattern">please enter only numbers</div>
+            </div>
+            
+    </div>
+    </td>
+</tr>
+
+
+<tr>
+<td>    Product Type:</td>
+<td><div class="form-group"  class="control-label col-sm-8">
+    
+        <select name="values_of_obj" id="type"  name="type"  class="form-control" [(ngModel)]="ValueId"  (change)="selectedValueObj($event)"  ngModel   required  #type="ngModel"   >
+         <option  *ngFor="let Value of values_of_objArray"  [value]="Value.name" >                                        
+              {{Value.name}}
+         </option>
+         </select>
+          <div *ngIf="type.errors && ( type.touched )" class="alert alert-danger">
+                  <div [hidden]="!type.errors.required">Must Select product type</div>
+          </div>
+         
+       
+         </div>
+    </td>
+</tr>
+
+
+
+<tr>
+<td>     Product Tax:</td>
+<td><div class="form-group"  class="control-label col-sm-8">
+    
+        <input  class="form-control" name="tax" id="tax" value= {{taxpay}}  ngModel    required     (mouseenter)= "taxpay=mouseEnter(price.value,type.value)">
+        
+        
+        </div>
+   
+    
+    </td>
+</tr>
+
+
+<tr>
+<td></td>
+<td><button   type="submit" class="btn btn-primary">submit</button>
+     <button type="button" class="btn btn-danger"  name="cancel"  >cancel</button></td>
+</tr>
+
+
+
+</tbody>
+</table>
+</form>
+</div>
+
+
+
+
+
+
+
+
+
+

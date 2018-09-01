@@ -1,0 +1,14 @@
+/app/
+/assets/
+/environments/
+/favicon.ico
+/image/
+/index.html
+/main.ts
+/penguin.ico
+/polyfills.ts
+/styles.css
+/test.ts
+/tsconfig.app.json
+/tsconfig.spec.json
+/typings.d.ts
